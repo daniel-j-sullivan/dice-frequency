@@ -1,0 +1,88 @@
+body
+{
+    font-family: "Montserrat", serif;
+}
+
+table
+{
+    font-size: 1rem;
+}
+
+thead th
+{
+    color: white;
+    font-weight: bold;
+    background-color: #212529;
+}
+
+td
+{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+img
+{
+    height: 40px;
+    width: 40px;
+}
+
+.dice-display
+{
+    background-color: #fff;
+}
+
+.stats-display
+{
+    background: #fff;
+    padding-top: 1em;
+}
+
+a[type='button']
+{
+    border-radius: 0;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+body
+{
+    font-family: "Montserrat", serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #212529;
+}
+
+.container
+{
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.dice-display
+{
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+.stats-display
+{
+    background-color: #fff;
+    padding: 1rem;
+}
+
+#diceChart
+{
+    max-height: 300px;
+}
+
+.table-wrapper
+{
+    overflow-x: auto;
+    max-height: 300px;
+}
